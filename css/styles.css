@@ -76,7 +76,7 @@ margin-right: -28%;
   font-family: 'Poppins', sans-serif;
 }
 #about {
-  background-image: url("/images/173511838.jpg");
+  background-image: url("../images/173511838.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
