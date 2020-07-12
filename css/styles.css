@@ -76,7 +76,7 @@ margin-right: -28%;
   font-family: 'Poppins', sans-serif;
 }
 #about {
-  background-image: url("../images/173511838.jpg");
+  background-image: url("https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -85,11 +85,11 @@ margin-right: -28%;
   text-align: center;
   font-size: 75px;
   font-family: 'Galada', cursive;
-  color: whitesmoke;
+  color: #fd1010;
 }
 #about p {
   font-size: 30px;
-  color: #fd1010;
+  color: black;
   text-align: center;
   font-family: 'Poppins', sans-serif;
   margin-bottom: 10%;
