@@ -1,51 +1,95 @@
 body {
-    font-family: 'Poppins', sans-serif;
-    background-image: url("/images/173511838.jpg");
-    /* Opacity : 0.8; */
-    overflow-x: hidden;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-  }
+  font-family: 'Poppins', sans-serif;
+  background-image: url("https://images.pexels.com/photos/2373201/pexels-photo-2373201.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  /* Opacity : 0.8; */
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
 .sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-    text-align:center;
-  }
-  .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-  }
-  .sidenav a:hover{
-    color: #F1F1F1;
-  }
-  .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
-  a {
-      color: white;
-  }
-  @media screen and (max-height: 450px) {
-    .sidenav { padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
-  .div{
-    padding:20px 15px;
-    background-color:black;
-  }
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align:center;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover{
+  color: #F1F1F1;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+a {
+    color: white;
+}
+.searchbar {
+  display: flex;
+  margin-left: 75%;
+  align-items: baseline;
+  margin-top: 2%;
+}
+@media screen and (max-height: 450px) {
+  .sidenav { padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.navigation{
+  padding:20px 15px;
+  background-color:black;
+}
+.logo2 {
+float: right;
+margin-left: 50%;
+margin-top: -12%;
+margin-right: -28%;
+}
+
+#home h1 {
+  color: #F14242;
+  text-align: center; 
+  font-size: 75px;
+  font-family: 'Galada', cursive;
+  margin-top: 3%;
+}
+#home p {
+  font-size: 30px;
+  color: whitesmoke;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+#about {
+  background-image: url("/images/173511838.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+#about h2 {
+  text-align: center;
+  font-size: 75px;
+  font-family: 'Galada', cursive;
+  color: #F14242;
+}
+#about p {
+  font-size: 30px;
+  color: whitesmoke;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}

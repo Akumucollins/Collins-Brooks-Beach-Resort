@@ -4,12 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>www.collins-brooksbeachresort.org</title>
+    <title>www.collin-brooksbeachresort.org</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
         rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bangers&family=Galada&family=Poppins:ital,wght@1,300&display=swap"
+        rel="stylesheet">>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
@@ -17,19 +19,20 @@
 </head>
 
 <body>
+    <!-- navigation bar -->
     <div id="page-container">
         <div id="content-wrap">
-            <div class="div">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="navigation">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light" margin="-2%">
                     <div id="mySidenav" class="sidenav">
                         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                        <a href="#">About us</a>
-                        <a href="#">Services</a>
-                        <a href="#">Support Staff</a>
-                        <a href="#">Contact us</a>
+                        <a href="#about">About Us</a>
+                        <a href="#services">Services</a>
+                        <a href="#support">Support Staff</a>
+                        <a href="#contacts">Contact us</a>
                     </div>
-                    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+                    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
                     <script>
                         function openNav() {
                             document.getElementById("mySidenav").style.width = "100%";
@@ -38,19 +41,58 @@
                             document.getElementById("mySidenav").style.width = "0";
                         }
                     </script>
-                    <a class="navbar-brand" href="#"><i class="fa fa-home" style="color:black;font-size:2em ;"></i></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <form class="form-inline my-2 my-lg-0">
+                    <form class="searchbar">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit"> <a
                                 href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiSo5_C_q3qAhXkyYUKHVTABpQQPAgH">Search</a>
                         </button>
                     </form>
+                </nav>
             </div>
+        </div>
+    </div>
+    <!-- collin-brooks logo -->
+    <div class="image">
+        <div class="logo1">
+            <img src="./images/beach-sun-ocean-sun-solar-sun-sun-sun-rays-icon-375527.png" width="12%">
+        </div>
+        <div class="logo2">
+            <img src="./images/beach-sun-ocean-sun-solar-sun-sun-sun-rays-icon-375527.png" width="30%">
+        </div>
+    </div>
+    <!-- home page introduction -->
+    <div id="home">
+        <h1>COLLIN-BROOKS BEACH RESORT</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur.</p>
+    </div>
+    <!-- about us section -->
+    <div id="about">
+        <div class="about">
+            <h2>About Us</h2>
+            <p>COLLIN-BROOKS is an iconic tropical paradise on the Kenyan coast sitting right in the middle of the
+                pristine
+                Matamu Marine National Park with its idyllic white sand beach and turquoise waters. The exceptional
+                personal
+                service and sincere charm of this established hotel has come to represent Kenyan coastal luxury to so
+                many
+                travellers for close to 30 years. There is so much to do here - learn to kite-surf; get your PADI
+                certificate, take a sunset dhow cruise on Mida Creek, play a round of golf on the nearby world class
+                golf
+                course, Vipingo Ridge; or go on safari for a few days in Tsavo or the Maasai Mara. If that all sounds a
+                little too energetic, relax around the pool with a good book as you work your way through ------our
+                cocktail
+                menu.</p>
+        </div>
+
+    </div>
+
+
 </body>
 
 </html>
